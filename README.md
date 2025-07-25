@@ -15,19 +15,32 @@ layout:
     visible: true
 ---
 
-# 👋 About Hyperliquid
+# 👋 About Antex
 
-## **What is Hyperliquid?**
+## **What is Antex?**
 
-Hyperliquid is a performant blockchain built with the vision of a fully onchain open financial system. Liquidity, user applications, and trading activity synergize on a unified platform that will ultimately house all of finance.
+Antex is an independent Layer 1 financial blockchain that leverages optimized Hot-Stuff consensus & parallel processing technology. It features an on-chain order book, on-chain matching, and decentralized oracle price feeds to create a fully on-chain decentralized finance platform. With security as the top priority, Antex enables decentralized governance for trading any asset, delivering a completely secure and transparent next-generation fully on-chain DeFi platform.
 
-Hyperliquid is a layer one blockchain (L1) written and optimized from first principles.
+#### Technical overview <a href="#technical-overview" id="technical-overview"></a>
 
-Hyperliquid uses a custom consensus algorithm called HyperBFT inspired by Hotstuff and its successors. Both the algorithm and networking stack are optimized from the ground up to support the unique demands of the L1.
+**Antex​**​ is a newly built and optimized Layer 1 blockchain (L1) specifically designed for decentralized finance (DeFi) platforms.
 
-Hyperliquid state execution is split into two broad components: HyperCore and the HyperEVM. HyperCore includes fully onchain perpetual futures and spot order books. Every order, cancel, trade, and liquidation happens transparently with one-block finality inherited from HyperBFT. HyperCore currently supports 200k orders / second, with throughput constantly improving as the node software is further optimized.
+After analyzing various existing models in both centralized (CeFi) and decentralized finance (DeFi), we prioritized the needs of decentralized financial platforms and user experience, with security as the foundational principle. This led to a complete redesign of Antex’s technical architecture, which includes the following key components:
 
-The HyperEVM brings the familiar general-purpose smart contract platform pioneered by Ethereum to the Hyperliquid blockchain. With the HyperEVM, the performant liquidity and financial primitives of HyperCore are available as permissionless building blocks for all users and builders. See the HyperEVM documentation section for more technical details.
+#### ​**​Consensus Algorithm​**​
 
-<figure><img src="https://2356094849-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyUdp569E6w18GdfqlGvJ%2Fuploads%2FPgVwhFtylBB2kaxhQtZz%2FStack.png?alt=media&#x26;token=fb5b86d0-95be-41bb-91d3-d08c8603c284" alt="" width="563"><figcaption></figcaption></figure>
+The network employs a custom consensus algorithm called ​**​AntBFT​**​, which is built upon an optimized and restructured version of ​**​HotStuff​**​ to support high-performance consensus across large-scale nodes and enable rapid transaction finality. Both the algorithm and network infrastructure have been re-engineered from the ground up to meet the unique demands of an L1 blockchain.
 
+#### ​**​Parallel Execution​**​
+
+To ensure fast transaction processing, the network utilizes ​**​parallel computing technology​**​, allowing different transactions to be categorized and executed concurrently at the logic layer. This significantly enhances the network’s overall throughput.
+
+#### ​**​Security-First Approach​**​
+
+To achieve ​**​true self-custody​**​ of user assets and ensure ​**​Ethereum-level security​**​, the network implements a fully decentralized security mechanism for assets and transactions. All transactions can be verified in real time, and users retain full control over their assets—the network itself cannot perform any risky operations on user funds.
+
+#### ​**​EVM Compatibility​**​
+
+To ensure seamless integration with the broader decentralized ecosystem, Antex is fully ​**​EVM-compatible​**​, enabling developers to deploy existing smart contracts and dApps with minimal friction while leveraging Antex’s high-performance infrastructure.
+
+\

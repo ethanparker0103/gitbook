@@ -1,11 +1,9 @@
 # Table of contents
 
-* [👋 About Hyperliquid](README.md)
+* [👋 About Antex](README.md)
   * [Core contributors](about-hyperliquid/core-contributors.md)
 * [💡 Onboarding](onboarding/README.md)
   * [How to start trading](onboarding/how-to-start-trading.md)
-  * [How to use the HyperEVM](onboarding/how-to-use-the-hyperevm.md)
-  * [How to stake HYPE](onboarding/how-to-stake-hype.md)
   * [Connect mobile via QR code](onboarding/connect-mobile-via-qr-code.md)
   * [Export your email wallet](onboarding/export-your-email-wallet.md)
   * [Testnet faucet](onboarding/testnet-faucet.md)
