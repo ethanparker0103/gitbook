@@ -31,30 +31,3 @@ The HyperEVM brings the familiar general-purpose smart contract platform pioneer
 
 <figure><img src="https://2356094849-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FyUdp569E6w18GdfqlGvJ%2Fuploads%2FPgVwhFtylBB2kaxhQtZz%2FStack.png?alt=media&#x26;token=fb5b86d0-95be-41bb-91d3-d08c8603c284" alt="" width="563"><figcaption></figcaption></figure>
 
-
-
-## Quick links
-
-{% content-ref url="onboarding/onboarding/" %}
-[onboarding](onboarding/onboarding/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-## Get Started
-
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
