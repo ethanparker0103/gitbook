@@ -17,4 +17,4 @@ layout:
 
 # Testnet faucet
 
-To use the testnet faucet, you need to have deposited on mainnet with the same address. You can then claim 1,000 mock USDC from the testnet faucet: [https://app.hyperliquid-testnet.xyz/drip](https://app.hyperliquid-testnet.xyz/drip)
+You can then claim 1,000 mock USDC per 24h from the testnet faucet: [https://testnet.antex.ai/en/faucet](https://testnet.antex.ai/en/faucet)

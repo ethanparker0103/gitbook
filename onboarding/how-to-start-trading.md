@@ -17,55 +17,42 @@ layout:
 
 # How to start trading
 
-## What do I need to trade on Hyperliquid?
+## What do I need to trade on **Antex**?
 
-You can trade on Hyperliquid with a normal defi wallet or by logging in with your email address.
+You can trade on Antex with a normal evm wallet or by logging in with your social medias.
 
-If you choose to use a normal defi wallet, you need:
+If you choose to use a normal wallet, you need:
 
 1. An EVM wallet
-   * If you don’t already have an EVM wallet (e.g., Rabby, MetaMask, WalletConnect, Coinbase Wallet), you can set one up easily at [https://rabby.io/](https://rabby.io/).
+   * If you don’t already have an EVM wallet (e.g., MetaMask), you can set one up easily at  [https://metamask.io/](https://metamask.io/).
    * After downloading a wallet extension for your browser, create a new wallet.
    * Your wallet has a secret recovery phrase – anyone with access to your password or seed phrase can access your funds. Do not share your private key with anyone. Best practice is to record your seed phrase and store it in a safe physical location.
-2. Collateral
-   * USDC and ETH (gas to deposit) on Arbitrum, or
-   * BTC on Bitcoin, ETH on Ethereum, or SOL or FARTCOIN on Solana, which can be traded for USDC on the Hyperliquid order books
+2.  Collateral
 
-## How do I onboard to Hyperliquid?
+    <table><thead><tr><th width="140.3671875">USDC</th><th width="304.4296875">mainnet</th><th width="273.92578125">testnet</th></tr></thead><tbody><tr><td>ethereum</td><td>-</td><td>-</td></tr><tr><td>arbitrum</td><td>-</td><td>0x3253a335E7bFfB4790Aa4C25C4250d206E9b9773</td></tr><tr><td>base</td><td>-</td><td>-</td></tr><tr><td>bnb-chain</td><td>-</td><td>-</td></tr><tr><td>solana</td><td>-</td><td>-</td></tr><tr><td>tron</td><td>-</td><td>-</td></tr></tbody></table>
 
-If you choose to log in with email:
+## How do I onboard to Antex?
 
-1. Click the "Connect" button and enter your email address. After you press "Submit," within a few seconds, a 6 digit code will be sent to your email. Type in the 6 digit code to login.
-2. Now you're connected. All that's left is to deposit. A new blockchain address is created for your email address. You can send USDC over Arbitrum, BTC over Bitcoin, ETH over Ethereum, or SOL or FARTCOIN over Solana. It’s easy to do from a centralized exchange or another defi wallet.
+If you choose to onboard with a wallet:
 
-If you choose to onboard with a defi wallet:
+1. Once you have an EVM wallet and collateral, go to [https://testnet.antex.ai/en/future](https://testnet.antex.ai/en/future)
+2. Click the “Connect” button and choose a wallet to connect. A pop-up will appear in your wallet extension asking you to connect. Press “Connect.”
+3. Click the "Deposit" button to deposit your assets.
+   1. Available assets are shown above.&#x20;
+   2. Enter the amount you want to deposit and click “Deposit.” Confirm the transaction in your  wallet extension.
+4. Then Clicking the “Enable Trading” button. A pop-up will appear in your wallet extension asking you to sign a gas-less transaction.
+5. You're now ready to trade!
 
-1. Once you have an EVM wallet and collateral, go to [https://app.hyperliquid.xyz/trade](https://app.hyperliquid.xyz/trade)
-2. Click the “Connect” button and choose a wallet to connect. A pop-up will appear in your wallet extension asking you to connect to Hyperliquid. Press “Connect.”
-3. Click the “Enable Trading” button. A pop-up will appear in your wallet extension asking you to sign a gas-less transaction. Press "Sign."
-4. Deposit to Hyperliquid, choosing between USDC on Arbitrum, BTC on Bitcoin, ETH on Ethereum, and SOL or FARTCOIN on Solana.
-   1. For USDC: enter the amount you want to deposit and click “Deposit.” Confirm the transaction in your EVM wallet.
-   2. For BTC, ETH, SOL, and FARTCOIN: send the spot asset to the destination address shown. Note that only USDC is used as trading collateral, so you will have to sell this asset for USDC to trade perpetuals or other spot assets.
-5. You're now ready to trade
+## How do I trade perpetuals on Antex?
 
-## How do I trade perpetuals on Hyperliquid?
-
-With perpetual contracts, you use USDC as collateral to long or short the token instead of buying the token itself, like in spot trading.
+With perpetual contracts, using USDC as collateral to long or short the token instead of buying the token itself.
 
 1. Using the token selector, choose a token that you want to open a position in.
 2. Decide if you want to long or short that token. If you expect the token price to go up, you want to long. If you expect the token price to go down, you want to short.
 3. Use the slider or type in the size of your position. Position size = your leverage amount \* your collateral
-4. Lastly, click Place Order. Click Confirm in the modal that appears. You can check the “Don’t show this again” box so you don’t have to confirm each order in the future.
+4. Lastly, click Place Order. Click Confirm in the modal that appears.
 
-## How do I bridge USDC onto Hyperliquid?
+## How do I withdraw USDC from Antex?
 
-1. You will need ETH and USDC on the Arbitrum network, since Hyperliquid’s native bridge is between Hyperliquid and Arbitrum. ETH will only be used as gas for transactions to deposit USDC. Trading on Hyperliquid does not cost gas.
-   1. You can use various bridges, such as [https://bridge.arbitrum.io/](https://bridge.arbitrum.io/), [https://app.debridge.finance/](https://app.debridge.finance/), [https://swap.mayan.finance/](https://swap.mayan.finance/), [https://app.across.to/bridge?](https://app.across.to/bridge?), [https://routernitro.com/swap](https://routernitro.com/swap), [https://jumper.exchange/](https://jumper.exchange/), and [https://synapseprotocol.com/](https://synapseprotocol.com/)
-   2. Alternatively, you can move funds directly to Arbitrum from a centralized exchange, if you’re already using one.
-2. Once you have ETH and USDC on Arbitrum, you can deposit by clicking the “Deposit” button on [https://app.hyperliquid.xyz/trade](https://hyperliquid.xyz/trade)
-
-## How do I withdraw USDC from Hyperliquid?
-
-1. On [https://app.hyperliquid.xyz/trade](https://hyperliquid.xyz/trade), click the “Withdraw” button in the bottom right.
-2. Enter the amount of USDC you would like to withdraw and click “Withdraw to Arbitrum.” This transaction does not cost gas. There is a $1 withdrawal fee instead.
-
+1. On [https://testnet.antex.ai/en/future/BTCUSDT](https://testnet.antex.ai/en/future/BTCUSDT), click the “Withdraw” button in the bottom right.
+2. Enter the amount of USDC you would like to withdraw and click “Withdraw.” This transaction does not cost gas.
