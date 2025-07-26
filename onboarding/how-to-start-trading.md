@@ -29,7 +29,7 @@ If you choose to use a normal wallet, you need:
    * Your wallet has a secret recovery phrase – anyone with access to your password or seed phrase can access your funds. Do not share your private key with anyone. Best practice is to record your seed phrase and store it in a safe physical location.
 2.  Asset
 
-    <table><thead><tr><th width="140.3671875">USDC</th><th width="304.4296875">mainnet</th><th width="273.92578125">testnet</th></tr></thead><tbody><tr><td>ethereum</td><td>-</td><td>-</td></tr><tr><td>arbitrum</td><td>-</td><td>0x3253a335E7bFfB4790Aa4C25C4250d206E9b9773</td></tr><tr><td>base</td><td>-</td><td>-</td></tr><tr><td>bnb-chain</td><td>-</td><td>-</td></tr><tr><td>solana</td><td>-</td><td>-</td></tr><tr><td>tron</td><td>-</td><td>-</td></tr></tbody></table>
+    <table><thead><tr><th width="140.3671875">USDT</th><th width="304.4296875">mainnet</th><th width="273.92578125">testnet</th></tr></thead><tbody><tr><td>ethereum</td><td>-</td><td>-</td></tr><tr><td>arbitrum</td><td>-</td><td>0x3253a335E7bFfB4790Aa4C25C4250d206E9b9773</td></tr><tr><td>base</td><td>-</td><td>-</td></tr><tr><td>bnb-chain</td><td>-</td><td>-</td></tr><tr><td>solana</td><td>-</td><td>-</td></tr><tr><td>tron</td><td>-</td><td>-</td></tr></tbody></table>
 
 ## How do I onboard to Antex?
 
@@ -45,14 +45,14 @@ If you choose to onboard with a wallet:
 
 ## How do I trade perpetuals on Antex?
 
-With perpetual contracts, using USDC as collateral to long or short the token instead of buying the token itself.
+With perpetual contracts, using USDT as collateral to long or short the token instead of buying the token itself.
 
 1. Using the token selector, choose a token that you want to open a position in.
 2. Decide if you want to long or short that token. If you expect the token price to go up, you want to long. If you expect the token price to go down, you want to short.
 3. Use the slider or type in the size of your position. Position size = your leverage amount \* your collateral
 4. Lastly, click Place Order. Click Confirm in the modal that appears.
 
-## How do I withdraw USDC from Antex?
+## How do I withdraw USDT from Antex?
 
 1. On [https://testnet.antex.ai/en/future/BTCUSDT](https://testnet.antex.ai/en/future/BTCUSDT), click the “Withdraw” button in the bottom right.
-2. Enter the amount of USDC you would like to withdraw and click “Withdraw.” This transaction does not cost gas.
+2. Enter the amount of USDT you would like to withdraw and click “Withdraw.” This transaction does not cost gas.

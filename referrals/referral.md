@@ -15,6 +15,5 @@ layout:
     visible: true
 ---
 
-# Testnet faucet
+# Referral
 
-You can then claim 1,000 mock USDT per 24h from the testnet faucet: [https://testnet.antex.ai/en/faucet](https://testnet.antex.ai/en/faucet)
