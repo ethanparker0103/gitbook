@@ -27,7 +27,7 @@ If you choose to use a normal wallet, you need:
    * If you don’t already have an EVM wallet (e.g., MetaMask), you can set one up easily at  [https://metamask.io/](https://metamask.io/).
    * After downloading a wallet extension for your browser, create a new wallet.
    * Your wallet has a secret recovery phrase – anyone with access to your password or seed phrase can access your funds. Do not share your private key with anyone. Best practice is to record your seed phrase and store it in a safe physical location.
-2.  Collateral
+2.  Asset
 
     <table><thead><tr><th width="140.3671875">USDC</th><th width="304.4296875">mainnet</th><th width="273.92578125">testnet</th></tr></thead><tbody><tr><td>ethereum</td><td>-</td><td>-</td></tr><tr><td>arbitrum</td><td>-</td><td>0x3253a335E7bFfB4790Aa4C25C4250d206E9b9773</td></tr><tr><td>base</td><td>-</td><td>-</td></tr><tr><td>bnb-chain</td><td>-</td><td>-</td></tr><tr><td>solana</td><td>-</td><td>-</td></tr><tr><td>tron</td><td>-</td><td>-</td></tr></tbody></table>
 
