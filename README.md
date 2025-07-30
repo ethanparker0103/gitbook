@@ -78,4 +78,6 @@ Antex's perpetual contracts and spot trading logic are fully powered by an on-ch
 * Guaranteed asset recovery even during exchange failures
 * Non-custodial safety—users always control funds
 
-\
+## System Architecture
+
+![](.gitbook/assets/348cdf61-9c47-4ee7-973b-12644c89c865.png)\
