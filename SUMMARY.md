@@ -23,5 +23,5 @@
   * [Withdrawing USDT and Other Assets](getting-started-user-guide/withdrawing-usdt-and-other-assets.md)
   * [Best Practices for Security (Mnemonic Phrases, Private Keys)](getting-started-user-guide/best-practices-for-security-mnemonic-phrases-private-keys.md)
 * [How to onboard to Antex？](user-onboarding-process/README.md)
-  * [DeFi wallet](user-onboarding-process/step-by-step-onboarding-guide-for-new-users.md)
+  * [DeFi Wallet](user-onboarding-process/step-by-step-onboarding-guide-for-new-users.md)
   * [Social Medias](user-onboarding-process/account-creation-and-verification.md)
