@@ -1,6 +1,23 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # How to onboard to Antex？
 
-**Quick overview — which way to choose**
+## **Quick overview — which way to choose**
 
 * **DeFi wallet (recommended if you already use MetaMask/Phantom/etc.)** — you keep your own keys and can use any supported wallet extension or mobile wallet app.
   * **Prereq:** browser wallet extension / mobile wallet app installed.
