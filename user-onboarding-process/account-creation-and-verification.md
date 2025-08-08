@@ -1,10 +1,27 @@
-# Account Creation and Verification
+# Social Medias
 
-Account creation and verification on Antex is a permissionless, non-custodial process that prioritizes user privacy and security, requiring no traditional KYC or personal data submission—unlike CeFi platforms (e.g., Binance or Coinbase, where ID verification can take days and exposes users to data breaches, as seen in Equifax's 2017 hack affecting 147 million people). Antex leverages Web3 principles, generating accounts via EVM-compatible wallets or social logins, ensuring you retain full control without the platform ever holding your assets or information. This approach is 80% faster than typical DEX setups (e.g., connecting to Uniswap often involves multiple approvals and gas payments taking 5-10 minutes), with quantitative ease: 98% of beta users complete it in under 1 minute. Analogous to setting up a personal safe where you hold the only key, without a bank clerk's involvement, this process emphasizes self-verification for trustless access. Common mistake: Treating it like a traditional signup—remember, your "account" is your wallet address, verifiable on-chain via AntBFT consensus. The steps below guide you, with tips to avoid pitfalls like phishing (causing $1 billion+ annual losses).
+## **Open Antex and click Connect**
 
-1. **Choose Your Method**: For wallet-based creation, download an EVM-compatible app like MetaMask ([https://metamask.io/)—install](https://metamask.io/\)%E2%80%94install) the extension/app, click "Create a Wallet," set a strong password, and generate your 12-24 word mnemonic phrase. For social login (quicker for beginners), select "Connect with Social" on the Antex site and authorize via Google/Twitter/Apple—this auto-generates an EVM address linked to your account (no phrase needed, but secured by OAuth).
-2. **Secure Your Credentials**: For wallets, back up the mnemonic offline (e.g., on paper in a safe)—test recovery by restoring on a separate device without funds. Enable 2FA and biometrics. For social, use strong, unique passwords and 2FA on the provider—avoid reusing logins to prevent chain reactions from breaches.
-3. **Verify the Account**: On Antex ([https://testnet.antex.ai/en/future](https://testnet.antex.ai/en/future)), click "Connect," select your method, and sign a gas-free message in the popup to verify ownership (confirms in <30 seconds via on-chain check). This links your address without data sharing, with AntBFT ensuring verifiability. No email/phone needed, but optional for notifications (verified via link/code in <1 minute).
-4. **Complete Onboarding Verification**: Enable trading with a one-time signature (gas-free), verifying protocol interactions. Your account is now active—dashboard shows address and balance.
+* Choose the **Connect social** option on the Connect modal.
 
-In use cases, a new user creates via MetaMask for full control, verifying to deposit test USDT and trade perpetuals; a casual trader uses Google login for quick verification, accessing spot trading in seconds. Quantitative security: 99.9% resistance to unauthorized access with proper practices. Tip: Verify site URLs to avoid fakes; common pitfall: Sharing mnemonics—leads to total loss (e.g., $500 million stolen in 2023). For advanced, use multi-signature wallets for verification layers. This process ensures secure, instant access to Antex's ecosystem, blending ease with Web3 empowerment. If issues, check FAQs or community support.
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MWU2Mjc5MmNmNGU3MjhmMWRlYWZhZmE3MTA4MzdmZjBfVkNVczZxR3JkUFdvbnJUMnVQV2t4cmNnaU1QQjM4ckhfVG9rZW46RzVCQmJSTmZnb2N3WnN4T1hzOGxaOEZUZ3dkXzE3NTQ2NDU5ODg6MTc1NDY0OTU4OF9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Enter your email address**
+
+* Type your email and press **Submit**.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YjhlOTU1NjE2MzA5NmJkN2FjNDc2OTNhNTczZjgzY2FfODRNZ1RJMXFKWXd5OExNSTdJcDRZeHhXTldmSGV1ajFfVG9rZW46TUlDWWJRRnBvb0dIWlJ4UHdLcGw4U1p1Z2hmXzE3NTQ2NDU5ODg6MTc1NDY0OTU4OF9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Verify with one-time code (OTP) and set a password**
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=NzQ3ZGM3NjQ1ZTMzZmVjZDcyZjg2ODRjNDYzMjBhZTRfeVU3S1hSOERVaHVtVmVUNU56dmd6Nm9EWFVxRnV5OTlfVG9rZW46V1hPZ2I4UVA4b3Vra1F4aTlKZmxobkhTZ2dnXzE3NTQ2NDU5ODg6MTc1NDY0OTU4OF9WNA" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MmM4YTEzM2M5NDJjYzU5NzY3ZjE5OTBkYmViYjQ1ZmNfV3pWRU13bG9laDVOQmo4NzNPMFp4Z1RoMU0yZTFGanNfVG9rZW46UHFieGJSbWtHb1d1UDR4WXV3YWxxeVNZZzZnXzE3NTQ2NDU5ODg6MTc1NDY0OTU4OF9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Email wallet created / assigned**
+
+* After verification, Antex (via the third-party provider) creates/assigns a blockchain address for your email. The app will display your email wallet address and deposit instructions.
+
+### **Security note**
+
+* learn how the email provider stores keys (custodial vs. non-custodial) — if Privy is used, consult their docs for recovery options.
