@@ -25,3 +25,4 @@
 * [How to onboard to Antex？](user-onboarding-process/README.md)
   * [DeFi Wallet](user-onboarding-process/step-by-step-onboarding-guide-for-new-users.md)
   * [Social Medias](user-onboarding-process/account-creation-and-verification.md)
+* [Faucet](faucet.md)
