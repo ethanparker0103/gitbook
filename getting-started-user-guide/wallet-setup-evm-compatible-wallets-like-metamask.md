@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Wallet Setup (EVM-Compatible Wallets like MetaMask)
 
 For users seeking maximum control and security, start with an EVM-compatible wallet like MetaMask (download the browser extension or mobile app from [https://metamask.io/](https://metamask.io/)). Install and create a new wallet by following the prompts—this generates a unique address and a 12-24 word recovery phrase (mnemonic), which is your master key to access funds. Write it down on paper and store it securely offline (e.g., in a safe or encrypted drive); never share it, as knowing the phrase allows full access (a common error leading to 20-30% of crypto losses). Enable 2FA and biometric locks for added protection. Next, add the AnteX testnet to MetaMask: Go to settings > Networks > Add Network, input the RPC URL (provided on the AnteX site), chain ID (custom for AnteX), currency symbol (ANTEX), and block explorer URL. This configures compatibility with AnteX's EVM layer, enabling direct signing of transactions for deposits, trades, or withdrawals.

@@ -1,11 +1,28 @@
-# Depositing Assets (USDT on Mainnet/Testnet Networks)
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
 
-Depositing assets into AnteX is a secure, straightforward process that allows you to fund your trading activities while maintaining full self-custody—your funds never leave your wallet but are bridged or allocated for use on the platform. AnteX supports USDT (Tether) as the primary stablecoin for deposits, available on both testnet (for practice with fake assets) and mainnet (for real trading). This leverages AnteX's native cross-chain protocols, secured by AntBFT consensus, enabling seamless transfers from networks like Ethereum, Arbitrum, BNB Chain, Solana, and TRON without third-party bridges (reducing risks like the $625 million Ronin hack in 2022). The process is gas-efficient (<0.01 USD on testnet), with parallel execution ensuring confirmations in <200ms, contrasting with slow DEX deposits on Ethereum (10-60 seconds with $5-50 fees). Analogous to fueling a car at a self-service station where you control the pump and never hand over your keys, depositing empowers you to start trading perpetuals or spot pairs immediately. Quantitative ease: 98% of beta users complete deposits in under 2 minutes, with zero custody transfer. Always verify network compatibility and start with small amounts on testnet to test. The following steps guide you through the process.
+# Deposit
 
-1. **Connect Your Wallet**: Ensure you're connected via MetaMask or social login (as detailed in the previous sub-section). Navigate to the AnteX dashboard at [https://testnet.antex.ai/en/future](https://testnet.antex.ai/en/future) (or mainnet equivalent once live).
-2. **Select Deposit Option**: Click the "Deposit" button in the top menu or wallet section. Choose USDT as the asset—on testnet, use faucets to obtain free tokens; on mainnet, ensure you have USDT in your wallet on a supported network.
-3. **Choose Network and Amount**: Select the source network (e.g., Ethereum for mainnet USDT, Arbitrum testnet address: 0x3253a335E7bFfB4790Aa4C25C4250d206E9b9773; BNB Chain, Solana, or TRON for others). Enter the deposit amount (min $10 on testnet for accessibility, no upper limit but consider gas). AnteX's cross-chain support automatically handles the transfer—locked on the source and minted on AnteX via validator quorum (2/3 approval for security).
-4. **Confirm Transaction**: Review details (e.g., estimated gas, network fees), then confirm in your wallet popup. The transaction processes via AnteX's native bridge, with AntBFT ensuring atomicity (all or nothing)—completion in 300-600ms on testnet. Funds appear in your AnteX balance, ready for trading.
-5. **Enable Trading (One-Time Step)**: After deposit, click "Enable Trading" to sign a gas-free transaction authorizing interactions (e.g., with the matching engine). This is a non-custodial approval, revocable anytime.
+## **Deposit Funds or Claim Faucet (For Testnet only）**
 
-In use cases, deposit $500 USDT from BNB Chain to fund a perpetual long on BTC, using ALP for low slippage; or transfer SOL-based USDT for spot trading, bridging in <1 minute. Tip: Monitor gas prices on the source chain (e.g., Ethereum's can spike; use L2 like Arbitrum for cheaper deposits). Common mistake: Wrong network selection—double-check to avoid lost funds. For security, use hardware wallets for large deposits and verify contract addresses on the official site. This process integrates with AnteX's ecosystem, enabling immediate trading while preserving your control. If issues arise, consult the FAQ or community support.
+Perpetual DEX requires collateral in your trading account before you can open positions.
+
+* Navigate to **“Deposit”**
+* Select the chain and asset you want to deposit (e.g., Arbitrum-USDC).
+* Enter the deposit amount.
+* Approve the transaction in your wallet (if needed).
+* Wait for the confirmation on-chain.

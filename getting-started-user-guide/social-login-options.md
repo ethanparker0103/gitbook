@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Social Login Options
 
 For faster onboarding without managing mnemonics, AnteX offers social login options via trusted providers like Google, Twitter, or Apple, which generate an EVM-compatible address linked to your account. This method abstracts key management while preserving self-custody—your assets are still controlled by you, with the social provider only handling authentication (secured by OAuth and 2FA). It's perfect for beginners, reducing setup time to <1 minute (vs. 5-10 minutes for manual wallets) and ideal for mobile users. To use: On the testnet site, click "Connect with Social," select your provider, authorize the login (e.g., via Google account), and confirm—AnteX creates a secure address automatically.

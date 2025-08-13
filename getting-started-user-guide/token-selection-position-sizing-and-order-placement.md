@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Token Selection, Position Sizing, and Order Placement
 
 1. **Select the Token**: From the dashboard ([https://testnet.antex.ai/en/future](https://testnet.antex.ai/en/future)), use the token selector to choose your pair (e.g., BTCUSDT, ETHUSDT). AnteX supports mainstream tokens with real-time charts and oracle-fed data for informed decisions—e.g., select BTC if expecting volatility.

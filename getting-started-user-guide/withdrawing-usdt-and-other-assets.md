@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Withdrawing USDT and Other Assets
 
 Withdrawing assets from AnteX is a secure, user-controlled process that maintains your self-custody, allowing you to transfer USDT or other supported tokens back to your wallet or another chain without platform interference. This non-custodial approach means AnteX never holds your funds—withdrawals are direct, gas-free on the AnteX side, and processed via native cross-chain protocols for seamless exits. Unlike CeFi platforms (e.g., Binance, where withdrawals can incur high fees of 0.1-1% and delays during volatility, plus custody risks), or DEXes with complex unwrapping (e.g., Uniswap's LP token redemptions with impermanent loss calculations taking minutes), AnteX enables instant, fee-minimal withdrawals in <1 minute. Integrated with AntBFT consensus for verifiable finality and parallel execution for efficiency, this feature supports high-volume exits (up to 500 TPS) with 99.9% success rates. Analogous to safely retrieving items from a personal locker using your own key, without staff involvement, it reinforces AnteX's commitment to user sovereignty. Quantitative benefits: zero gas on AnteX for the withdrawal transaction (source chain gas may apply, <0.01 USD on L2s), reducing costs by 90% vs. traditional methods. Always verify the destination address to avoid errors, and use testnet for practice. The following steps guide you through the process, with tips for safe management.

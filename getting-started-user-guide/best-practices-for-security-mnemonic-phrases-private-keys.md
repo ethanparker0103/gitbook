@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Best Practices for Security (Mnemonic Phrases, Private Keys)
 
 Security is paramount in DeFi, where you are your own bank—AnteX's non-custodial design means your assets are safe only if you protect your wallet credentials. The mnemonic phrase (recovery seed, typically 12-24 words) and private keys are the keys to your kingdom: anyone with access can control your funds, leading to irreversible losses (e.g., $1 billion+ stolen annually from phrase compromises). Unlike CeFi platforms with account recovery (but custody risks), AnteX emphasizes self-responsibility, integrated with features like forced withdrawals for emergencies. Follow these best practices to safeguard your assets, reducing hack risks by 95% (per industry reports). Analogous to locking a safe with a unique combination only you know, treat these as irreplaceable—mishandling is a common mistake causing 20-30% of crypto losses. Quantitative tip: Use tools with 99.9% uptime ratings and enable multi-factor protections.

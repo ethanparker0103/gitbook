@@ -1,3 +1,89 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Trading Perpetual Contracts
 
-Trading perpetual contracts on AnteX allows you to speculate on asset prices with leverage, using USDT as collateral to open long or short positions without owning the underlying token. This feature mirrors futures but without expiration, supported by AnteX's on-chain matching engine for fair executions, native oracle for accurate pricing, and parallel execution for <200ms speeds—enabling high-frequency trading that rivals CeFi like Bybit but with DeFi's transparency and self-custody. Perpetual contracts are ideal for hedging or amplified returns, with funding rates (0.01-0.05% every 8 hours) balancing markets. Unlike spot trading (buying/selling actual assets) or limited-leverage DEXes (e.g., Perpetual Protocol's 10x cap with high slippage), AnteX offers up to 100x leverage with <0.1% slippage via ALP depth. Analogous to driving a sports car with adjustable gears (leverage) on a smooth highway (AnteX's infrastructure), this lets you accelerate profits but requires monitoring to avoid crashes (liquidations). Quantitative perks: 99% fill rates and positions sized as leverage \* collateral (e.g., $100 at 20x = $2,000 exposure). Always start on testnet, use small collateral, and monitor margins (maintenance 0.5-1%) to prevent auto-liquidations. The following steps guide you, with tips for safe trading.
+## **Select a Trading Pair**
+
+* Go to the **Trading** page.
+* In the **Market Selector**, choose the pair you want to trade (e.g., BTC-USDT, ETH-USDT).
+* Review the current price chart, order book, and recent trades.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ODdkODQ0NTdmZDc0MDUzMWM3MmZkNTQ5OTdjYjg3Y2NfUzhaQzAwQVgycmd5UFk1YmJxSUtuaDFpZTBVZmpCSG1fVG9rZW46TVlkNmJQazdFb0VVcEN4RlZvMWx3dlJwZzBkXzE3NTUwNzc5NjI6MTc1NTA4MTU2Ml9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Choosing Your Position Margin Mode: Cross or Isolated**
+
+* **Cross Margin Mode(Default):**
+
+All your positions that use the same margin asset share a common margin balance. This means your available margin across those positions can be used to prevent liquidation. While this maximizes margin efficiency, it also means that if one position incurs significant losses, it may affect all your positions under that asset.
+
+* **Isolated Margin Mode:**
+
+Each position has its own dedicated margin. The margin allocated to a position is independent, limiting your risk to that specific position only. If the position’s margin is exhausted, only that position will be liquidated, without affecting your other positions.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=N2I3ODM0YzQ0Mjg0MmMxZjkwMTk5YjExMWNhMzRkMzNfMTZwanYxNHQ2cklLZU5Udmh5d1paZkRWSXkzRFE0eXBfVG9rZW46QzVKc2JhZXdPb29VSkF4bVRpSmx5QWtYZ2xoXzE3NTUwNzc5NjI6MTc1NTA4MTU2Ml9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Set Leverage**
+
+* Use the leverage slider or input box to choose your leverage (e.g., 5×, 10×, 20×), default to 10x.
+* Remember: Higher leverage = higher risk of liquidation.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=OTc4MGQyOWQyMjhmNTFjMTQ1MjFlNDI4YTI0ODI3MTNfWkg5azJENWJtdHAxY29DVjNsRmxRSzJkb1BMdU4zU0lfVG9rZW46WjBvQ2JsUG9ZbzJnamt4UWRMaWxOMWlyZ21oXzE3NTUwNzc5NjI6MTc1NTA4MTU2Ml9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Choose Order Type**
+
+Antex supports multiple order types:
+
+* **Market Order** – Executes immediately at the best available price.
+* **Limit Order** – Executes only at your chosen price or better.
+* **Stop Orders** – Triggered automatically at a specified price.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=ZGJhMWZlZjZhZDZjYzdmMGZjZWZkNjEwZjZlZjMwOWJfTVRMY0liN1JyeUFackZKQzVuYjVkTk5kZkNzOEdyUW1fVG9rZW46TUFlTWJPTVJqbzJpZVJ4Y1RybGx1OTdJZ2JiXzE3NTUwNzc5NjI6MTc1NTA4MTU2Ml9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Place Your Order**
+
+* Enter:
+  * **Order Size** (in base or quote token)
+  * **Price** (if limit order)
+* Double-check:
+  * **Price**
+  * **Position Value**
+  * **Initial Margin**
+* Click **“Buy / Long”** or **“Sell / Short”**.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YWFlYmNkOWFlMjNiOTI1ZjA2MmM0OGM3YmFlMjE2MWFfcllDelJEZ3FvWmd3T2NLOE5kYVJleE9pckN0eE54cXVfVG9rZW46SzAzQWJMWXp0b1F6UFF4enJHQ2w5OWU2Z0dnXzE3NTUwNzc5NjI6MTc1NTA4MTU2Ml9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Monitor Your Position**
+
+* View open positions in the **Positions Panel**:
+  * Entry Price
+  * Size
+  * PnL (Profit & Loss)
+  * Margin
+  * Liquidation Price
+* Adjust stop-loss or take-profit orders as needed.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=YWFiMzAzM2IxMWE5MGM4YmRkYTBhZjU1NWE1YmZkYzlfblVEVUxXMDZOMlNVUEFiN1VRSTAwMDUyOHgzbVY1WERfVG9rZW46UWoxNWJxVk1Ub0lvMjJ4RFRlOWxSVmtuZ2loXzE3NTUwNzc5NjI6MTc1NTA4MTU2Ml9WNA" alt=""><figcaption></figcaption></figure>
+
+## **Close Your Position**
+
+* From the Positions Panel, click **“Close”**.
+* Choose:
+  * **Market Close** – Instantly closes at market price.
+  * **Limit Close** – Closes only at your chosen price.
+
+<figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=OTYxMTJhMTYwYjZmZjY1MmM4NThhZDY1YTczZTM0NTFfTWJ0SUEwZDJpYlBwd0hSUDBYMGcydjBQcEFkV1lMU21fVG9rZW46WEJ5TmJjaEM2bzk4TWJ4dURBRmxKaUs1ZzNmXzE3NTUwNzc5NjI6MTc1NTA4MTU2Ml9WNA" alt=""><figcaption></figcaption></figure>
