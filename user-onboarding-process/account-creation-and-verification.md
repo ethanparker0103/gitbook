@@ -17,7 +17,7 @@ layout:
 
 # Social Medias
 
-## **Open Antex and click Connect**
+## **Open** AnteX **and click Connect**
 
 * Choose the **Connect social** option on the Connect modal.
 
@@ -37,7 +37,7 @@ layout:
 
 ## **Email wallet created / assigned**
 
-* After verification, Antex (via the third-party provider) creates/assigns a blockchain address for your email. The app will display your email wallet address and deposit instructions.
+* After verification, AnteX (via the third-party provider) creates/assigns a blockchain address for your email. The app will display your email wallet address and deposit instructions.
 
 ### **Security note**
 

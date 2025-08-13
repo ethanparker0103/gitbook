@@ -5,11 +5,11 @@ description: >-
   app.
 ---
 
-# DeFi wallet
+# DeFi Wallet
 
 DeFi wallet (recommended if you already use MetaMask/Phantom/etc.) — you keep your own keys and can use any supported wallet extension or mobile wallet app.
 
-## Open Antex Dapp
+## Open AnteX Dapp
 
 * Go to [https://testnet.antex.ai/en/future/BTCUSDT](https://testnet.antex.ai/en/future/BTCUSDT)
 
@@ -18,9 +18,9 @@ DeFi wallet (recommended if you already use MetaMask/Phantom/etc.) — you keep 
 * If you use desktop, install MetaMask, or Phantom browser extension.
 * If on mobile: install the wallet app (MetaMask app, Phantom app, etc.) and use WalletConnect to link.（Coming soon）
 
-## **Connect to Antex**
+## **Connect to** AnteX
 
-* Click **Connect** on Antex → choose your wallet (MetaMask / Phantom / ...).
+* Click **Connect** on AnteX → choose your wallet (MetaMask / Phantom / ...).
 
 <figure><img src="https://g436fuyahxw.sg.larksuite.com/space/api/box/stream/download/asynccode/?code=MTYyNjE0YTcyNDliYTE2ZWE3ZmIyNjA4OWQzZmIwNjdfUU9CamZDS1JOa2RSUWJiSDN3YlFCTGVmc1dsN2VrN2lfVG9rZW46Tkw1U2JhR2tLbzNwN254WmMyRWxMMlo3Z3BoXzE3NTQ2NDU1NjQ6MTc1NDY0OTE2NF9WNA" alt=""><figcaption></figcaption></figure>
 
