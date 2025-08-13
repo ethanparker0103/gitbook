@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # How to Join AnteX and Start Trading
 
 Joining AnteX and beginning to trade is a simple, secure process that prioritizes user convenience and self-custody, allowing you to engage with the platform's high-performance DeFi features like perpetual contracts and spot trading. Whether you're new to crypto or an experienced trader, AnteX supports two primary methods: traditional EVM-compatible wallets for full control or social login for quick access. The testnet (accessible at [https://testnet.antex.ai/en/future](https://testnet.antex.ai/en/future)) is recommended for practice, where you can connect, deposit test assets (e.g., USDT on Ethereum or BNB Chain), and execute trades without real financial risk. This setup leverages AnteX's AntBFT consensus for instant confirmations (<200ms) and parallel execution for smooth performance, contrasting with cumbersome DEX onboarding (e.g., Uniswap's multi-step approvals taking 5-10 minutes with high gas fees) or CeFi's invasive KYC (e.g., Binance requiring ID verification and asset deposits). Quantitative ease: 95% of beta users complete setup in under 2 minutes, with zero custody transfer—your assets stay in your wallet. Analogous to plugging into a smart home system that activates all devices with one switch, this process gets you trading quickly while emphasizing security. Always verify the site URL to avoid phishing, and start with small test transactions. The following subsections detail the methods.
