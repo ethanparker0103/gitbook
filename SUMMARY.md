@@ -19,6 +19,7 @@
   * [Trading](getting-started-user-guide/trading.md)
   * [Wallet Setup (EVM-Compatible Wallets like MetaMask)](getting-started-user-guide/wallet-setup-evm-compatible-wallets-like-metamask.md)
   * [Social Login Options](getting-started-user-guide/social-login-options.md)
+  * [Faucet](getting-started-user-guide/faucet.md)
   * [Deposit](getting-started-user-guide/depositing-assets-usdt-on-mainnet-testnet-networks.md)
   * [Trading Perpetual Contracts](getting-started-user-guide/trading-perpetual-contracts.md)
   * [Token Selection, Position Sizing, and Order Placement](getting-started-user-guide/token-selection-position-sizing-and-order-placement.md)
@@ -26,4 +27,3 @@
   * [Withdrawing USDT and Other Assets](getting-started-user-guide/withdrawing-usdt-and-other-assets.md)
   * [Best Practices for Security (Mnemonic Phrases, Private Keys)](getting-started-user-guide/best-practices-for-security-mnemonic-phrases-private-keys.md)
 * [Onboarding](user-onboarding-process.md)
-* [Faucet](faucet.md)

@@ -1,4 +1,5 @@
 ---
+hidden: true
 layout:
   width: default
   title:
@@ -15,5 +16,5 @@ layout:
     visible: true
 ---
 
-# How to onboard to Antex？
+# Onboarding
 
