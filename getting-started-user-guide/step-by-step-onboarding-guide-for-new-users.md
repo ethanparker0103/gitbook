@@ -1,8 +1,18 @@
 ---
-description: >-
-  - DeFi wallet (recommended if you already use MetaMask/Phantom/etc.) — you
-  keep your own keys and can use any supported wallet extension or mobile wallet
-  app.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Login With DeFi Wallet
