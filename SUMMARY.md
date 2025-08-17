@@ -19,7 +19,7 @@
   * [Trading](getting-started-user-guide/trading.md)
   * [Wallet Setup (EVM-Compatible Wallets like MetaMask)](getting-started-user-guide/wallet-setup-evm-compatible-wallets-like-metamask.md)
   * [Social Login Options](getting-started-user-guide/social-login-options.md)
-  * [Faucet](getting-started-user-guide/faucet/README.md)
+  * [Faucet](getting-started-user-guide/faucet.md)
     * [Trial Funds](getting-started-user-guide/faucet/trial-funds.md)
     * [On-chain Tokens](getting-started-user-guide/faucet/on-chain-tokens.md)
   * [Deposit](getting-started-user-guide/depositing-assets-usdt-on-mainnet-testnet-networks.md)
