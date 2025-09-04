@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/Twitter-Post-Cobranding.png
+cover: .gitbook/assets/20250904-151253.png
 coverY: 0
 layout:
   width: default
