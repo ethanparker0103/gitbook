@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/20250904-151253.png
+cover: .gitbook/assets/20250904-173033.png
 coverY: 0
 layout:
   width: default
